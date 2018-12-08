@@ -1,2 +1,7 @@
+# This is edited file.
+
 for i in range(1,5+1):
-    print("It works on subdim!")
+    if i%2==0:
+        print("It works on subdim!")
+    else:
+        print(i)
